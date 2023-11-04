@@ -1,0 +1,25 @@
+{
+  "name": "1nce-aws-deploy",
+  "version": "1.0.0",
+  "main": "main.js",
+  "engines": {
+    "node": ">=16.20.0"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.441.0",
+    "@aws-sdk/client-iot": "^3.441.0",
+    "@aws-sdk/client-s3": "^3.441.0",
+    "@aws-sdk/client-secrets-manager": "^3.441.0",
+    "@aws-sdk/lib-dynamodb": "^3.441.0",
+    "axios": "^1.6.0",
+    "console-stamp": "latest",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "console-stamp": "latest",
+    "nodemon": "latest"
+  }
+}
