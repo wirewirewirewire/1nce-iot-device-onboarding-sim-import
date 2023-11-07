@@ -247,7 +247,7 @@ async function start() {
         );
       };
       let promises = [];
-      promises.push(processChunk(simData.data, onceCredentials.data.prod.access_token));
+      promises.push(processChunk(simData.data, onceCredentials.data.access_token));
       await Promise.all(promises);
     } else {
       console.log("[DB] no more SIM data ...break");
